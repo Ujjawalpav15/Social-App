@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 20),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color.fromARGB(70, 0, 0, 0),
@@ -104,7 +104,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(color: Colors.blueAccent, fontSize: 16),
                 ),
               ),
-              SizedBox(height: 200,),
+              SizedBox(height: 80,),
               TextButton(
                 onPressed: () {
                   // Navigate to registration page
